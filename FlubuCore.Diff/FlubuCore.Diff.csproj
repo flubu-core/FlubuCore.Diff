@@ -1,8 +1,23 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
-  </PropertyGroup>
+    <AssemblyName>FlubuCore.Diff</AssemblyName>
+    <PackageId>FlubuCore.Diff</PackageId>
+    <PackageTags>dotnet;flubu;flubucore;build;builder;script;buildscript;automation;VisualStudio</PackageTags>
+    <PackageLicenseUrl>http://www.opensource.org/licenses/bsd-license.php</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/flubu-core/FlubuCore.Diff</PackageProjectUrl>
+    <PackageReleaseNotes>https://github.com/flubu-core/flubu.core/blob/master/FlubuCore.ProjectVersion.txt</PackageReleaseNotes>
+    <Description>
+      Flubu is A C# library for building projects and executing deployment scripts using C# code.
+      This package contains flubu task plugin for diffing 2 files. Diff task generates html report if there are any differences. 
+    </Description>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion></PropertyGroup>
   <ItemGroup>
     <PackageReference Include="FlubuCore" Version="2.1.0" />
   </ItemGroup>

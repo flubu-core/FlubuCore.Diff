@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlubuCore.Diff", "FlubuCore.Diff\FlubuCore.Diff.csproj", "{EA6558AE-955E-4531-AA71-D3992788FDE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildScript", "BuildScript\BuildScript.csproj", "{99F8EF31-287C-4FBE-B81D-EFC8AE5B9C70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildScript", "BuildScript.csproj", "{861ACD39-2D80-4AE1-8348-F3945EB84D83}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{EA6558AE-955E-4531-AA71-D3992788FDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA6558AE-955E-4531-AA71-D3992788FDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA6558AE-955E-4531-AA71-D3992788FDE1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{99F8EF31-287C-4FBE-B81D-EFC8AE5B9C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{99F8EF31-287C-4FBE-B81D-EFC8AE5B9C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{99F8EF31-287C-4FBE-B81D-EFC8AE5B9C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{99F8EF31-287C-4FBE-B81D-EFC8AE5B9C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{861ACD39-2D80-4AE1-8348-F3945EB84D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{861ACD39-2D80-4AE1-8348-F3945EB84D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{861ACD39-2D80-4AE1-8348-F3945EB84D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{861ACD39-2D80-4AE1-8348-F3945EB84D83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

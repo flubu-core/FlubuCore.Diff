@@ -13,7 +13,7 @@ namespace FlubuCore.Context.FluentInterface.Interfaces
     /// <param name="htmlReportOutputPath">path where html report will be stored.</param>
     public static class TaskFluentInterfaceExtensions
     {
-           public static DiffTask ExampleFlubuPluginTask(this ITaskFluentInterface flubu, string firstFilePathToCompare, string secondFilePathToCompare, string htmlReportOutputPath)
+           public static DiffTask DiffTask(this ITaskFluentInterface flubu, string firstFilePathToCompare, string secondFilePathToCompare, string htmlReportOutputPath)
         {
             return new DiffTask(firstFilePathToCompare, secondFilePathToCompare, htmlReportOutputPath);
         }
