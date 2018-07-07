@@ -8,3 +8,5 @@ FlubuCore.Diff is a [FlubuCore](https://github.com/flubu-core/flubu.core) plugin
 Diff generated report example:
 
 ![Diff](https://github.com/flubu-core/FlubuCore.Diff/blob/master/DiffExample.png)
+
+Search for [FlubuCore.Diff](https://www.nuget.org/packages/FlubuCore.Diff) on nuget.
