@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using FlubuCore.Context;
+using FlubuCore.Context.FluentInterface.Interfaces;
 using FlubuCore.Tasks;
 
 namespace FlubuCore.Diff
