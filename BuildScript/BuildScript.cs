@@ -35,7 +35,7 @@ namespace BuildScript
                     .Project("FlubuCore.Diff/FlubuCore.Diff.csproj")
                     .IncludeSource()
                     .NoBuild())
-                .AddCoreTask(x => x.NugetPush("FlubuCore.Diff/bin/release/FlubuCore.Diff.1.0.0.Nupkg")
+                .AddCoreTask(x => x.NugetPush("FlubuCore.Diff/bin/release/FlubuCore.Diff.1.0.1.Nupkg")
                     .WithArguments("-s", "https://www.nuget.org/api/v2/package")
                     .WithArguments("-k", NugetKey)
                     .DoNotFailOnError());
